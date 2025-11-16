@@ -10,17 +10,6 @@
     font-family: 'Inter', sans-serif;
 }
 
-@media (min-width: 48rem) {
-    body {
-        padding: 0;
-    }
-
-    .content-wrapper {
-        width: 25%;
-        height: 75%;
-    }
-}
-
 body {
     background-color: var(--black);
     display: flex;
@@ -32,6 +21,12 @@ body {
     padding-bottom: 2rem;
     margin: 0;
     gap: 2rem;
+}
+
+@media (min-width: 48rem) {
+    body {
+        padding: 0;
+    }
 }
 
 .content-wrapper {
@@ -46,6 +41,13 @@ body {
     color: var(--white);
     padding: 2rem;
     border-radius: 1.5rem;
+}
+
+@media (min-width: 48rem) {
+    .content-wrapper {
+        width: 25%;
+        height: 75%;
+    }
 }
 
 .profile {
