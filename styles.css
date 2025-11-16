@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Martian+Mono:wght@100..800&display=swap');
+
+:root {
+    --grey-900: #141414;
+    --grey-800: #1F1F1F;
+    --grey-700: #333333;
+    --light-green: #C4F82A;
+    --white: #FFFFFF;
+    --black: #000000;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: var(--black);
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 75%;
+    min-height: 50vh;
+    width: 35%;
+    background-color: var(--grey-800);
+    color: var(--white);
+    padding: 2rem;
+    border-radius: 1.5rem;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.profile-image {
+    border-radius: 50%;
+    height: 100%;
+    max-height: 5.5rem;
+    width: auto;
+}
+
+.title {
+    color: var(--white);
+    font-size: 1.5rem;
+    line-height: 150%;
+    letter-spacing: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.location {
+    margin-top: 0;
+    color: var(--light-green);
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.description {
+    font-size: 0.9rem;
+}
+
+.buttons-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.buttons-wrapper > button {
+    width: 100%;
+    background-color: var(--grey-700);
+    color: var(--white);
+    font-family: "Inter", sans-serif;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-shadow: none;
+    border-style: none;
+    font-weight: bold;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: white;
+}
+
+.attribution a {
+    color: lightblue;
+}
